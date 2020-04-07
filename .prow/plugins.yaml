@@ -1,0 +1,3 @@
+plugins:
+  mousavian/mysql-operator:
+    - size
