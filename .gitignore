@@ -38,6 +38,8 @@ cloud-provider.cfg
 manifests/bmcs-config.yaml
 manifests/bmcs-secret.yaml
 env.sh
+*.env
+*.tmp
 
 # test generated file
 test/e2e/manifests/e2e-mysql-operator-controller.yaml
@@ -46,6 +48,6 @@ test/e2e/manifests/e2e-mysql-operator-controller.yaml
 *.sw[op]
 .go
 
-# Goland 
+# Goland
 .idea
 *.iml
